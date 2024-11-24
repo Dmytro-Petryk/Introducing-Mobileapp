@@ -1,0 +1,91 @@
+body {
+  font-family: "Inter";
+  width: 1440px;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+header {
+  background-color: #06071b;
+  padding-top: 26px;
+}
+.logo {
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 19px;
+  margin-left: 16px;
+  font-size: 28px;
+  line-height: 33.89px;
+}
+
+nav {
+  background-image: url("/img/backgraunt/Rectangle\ 2.png");
+  width: 100%;
+  display: flex;
+  height: 72px;
+  margin-top: 26px;
+  padding-top: 19px;
+  background: linear-gradient(
+    90.03deg,
+    rgba(0, 197, 235, 0.3) -1.97%,
+    rgba(181, 68, 254, 0.3) 89.43%
+  );
+  backdrop-filter: blur(35px);
+}
+.nav-header {
+  color: #ffffff;
+}
+.ul-header {
+  gap: 40px;
+  display: flex;
+  margin-left: 827px;
+}
+.one {
+    align-items: center;
+    margin-left: 16px;
+    color: #ffffff;
+    
+}
+
+.one h1 {
+
+  margin-top: 145px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.41px;
+}
+.one h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24.2px;
+  margin-top: 12px;
+}
+
+.one li {
+    display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  margin-top: 28px;
+}
+.btn-dow{
+    margin-top: 62px;
+    margin-bottom: 146px;
+    background: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
+    width: 200px;
+    height: 42px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    padding-left: 60px;
+    padding-right: 60px ;
+    padding-top: 11px ;
+    padding-bottom: 12px;
+}
