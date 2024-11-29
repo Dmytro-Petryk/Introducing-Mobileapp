@@ -1,155 +1,247 @@
 * {
-    box-sizing: border-box; /* Поля й рамки враховуються у ширині */
+  box-sizing: border-box; /* Поля й рамки враховуються у ширині */
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    margin: 0 auto;
-    padding: 0;
-    overflow-x: hidden;
-    background-color: #06071b;
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #06071b;
+  padding-left: 0;
+  margin: 0;
+  width: 1440px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+li {
+  padding-left: 0;
+  margin: 0;
+}
+img {
+  display: block;
+}
+h1 h2 h3 h4 h5 h6 p {
+  margin: 0;
 }
 
 header {
-    background-color: #06071b;
-    height: 684px;
-    max-width: 1440px;
-    margin: 0 auto;
-    height: 684px;
-    padding: 26px 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
+  background-color: #06071b;
+  height: 684px;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 684px;
+  padding: 26px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
 }
 
 .logo {
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 34px;
-    margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  margin-bottom: 20px;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 72px;
-    margin-top: 26px;
-    padding: 0 16px;
-    background: linear-gradient(90.03deg, rgba(0, 197, 235, 0.3) -1.97%, rgba(181, 68, 254, 0.3) 89.43%);
-    backdrop-filter: blur(35px);
-    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  margin-top: 26px;
+  padding: 0 16px;
+  background: linear-gradient(
+    90.03deg,
+    rgba(0, 197, 235, 0.3) -1.97%,
+    rgba(181, 68, 254, 0.3) 89.43%
+  );
+  backdrop-filter: blur(35px);
+  border-radius: 5px;
 }
 
 .nav-header {
-    color: #ffffff;
-    font-size: 18px;
+  color: #ffffff;
+  font-size: 18px;
 }
 
 .ul-header {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 .ul-header li {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .one {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: #ffffff;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #ffffff;
+  margin-top: 50px;
 }
 
 .one h1 {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    text-align: left;
-    margin-bottom: 12px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 12px;
 }
 
 .one h3 {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-bottom: 28px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 28px;
 }
 
 .one ul {
-    margin-bottom: 62px;
+  margin-bottom: 62px;
 }
 
 .one li {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 10px;
 }
 
 .btn-dow {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
-    width: 200px;
-    height: 42px;
-    border-radius: 5px;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
-    text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
+  width: 200px;
+  height: 42px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
 }
-
 
 .telefon-back {
-    order: ;
-    background-image: url("/img/backgraunt/Group415.png");
-    
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 895px;
-    height: 553px;
-    margin: 0 auto;
-    margin-left: 250px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+  background-image: url("/img/backgraunt/Group415.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 895px;
+  height: 553px;
+  margin: 0 auto;
+  margin-left: 250px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+main {
+  background-color: #ffffff;
+}
+.h22 {
+  text-align: center;
+  padding-top: 50px;
+}
+.h22 p {
+  font-size: 20px;
+}
+.ul-img {
+  padding-left: 100px;
 
-
-.rrr{
-    background-color: #ffffff;
-    height: 744px;
+  align-items: center;
+  margin-right: auto;
+  width: calc((100% - 72px) / 4);
+}
+.prin {
+  display: flex; /* Включає flex-контейнер */
+  flex-direction: row; /* Елементи розташовуються у рядок */
+  gap: 10px;
+}
+.main-img {
+  margin-left: 430px;
+  margin-top: -580px;
+}
+.pin {
+  margin-left: 950px;
+  margin-top: -638px;
+  flex-direction: row;
+  width: 300px;
 }
 
+.thee {
+  margin-top: 200px;
+}
+.vi {
+  margin-left: 550px;
+}
+.thee p {
+  width: 500px;
+  margin-left: 400px;
+  text-align: center;
+}
+.ggg {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 
+.four {
+  color: white;
+  background-color: #06071b;
+  height: 700px;
+}
+.qqqq {
+  text-align: center;
+  padding-top: 50px;
+}
+.qqqq p {
+  font-size: 20px;
+  margin-right: 70px;
+}
+.group {
+  padding-left: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 90px;
+}
+.hhh {
+  text-align: center;
+  padding-top: 50px;
+}
+.jon {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.jon img {
+  margin-left: 670px;
+}
+.ppqq {
+  margin-left: 200px;
+  margin-right: 200px;
+}
 
-
-
-
-
-
-
-
-
-
-} main{
-    background-color: #00C5EB;
+footer {
+  color: white;
+  margin-left: 30px;
+}
+.imgimg {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
